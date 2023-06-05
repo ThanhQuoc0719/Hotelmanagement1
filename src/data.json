@@ -1,0 +1,155 @@
+{
+  "roomTypes": [
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a1",
+      "name": "Phòng đơn",
+      "description": "Phòng đơn dành cho cá nhân hoặc cặp đôi, gia đình nhỏ"
+    },
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a2",
+      "name": "Phòng đôi",
+      "description": "Phòng đôi dành cho cặp đôi, bạn bè, người thân, gia đình nhỏ, ..."
+    },
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a3",
+      "name": "Phòng gia đình",
+      "description": "Phòng gia đình dành cho gia đình có nhiều thành viên"
+    },
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a4",
+      "name": "Phòng hội nghị",
+      "description": "Phòng hội nghị dành cho các cuộc họp, hội nghị, sự kiện, ..."
+    },
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a5",
+      "name": "Phòng VIP",
+      "description": "Phòng VIP dành cho các khách hàng VIP"
+    },
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a6",
+      "name": "Phòng đặc biệt",
+      "description": "Phòng đặc biệt dành cho các khách hàng đặc biệt"
+    },
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a7",
+      "name": "Phòng đặc biệt",
+      "description": "Phòng đặc biệt dành cho các khách hàng đặc biệt"
+    },
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a8",
+      "name": "Phòng đặc biệt",
+      "description": "Phòng đặc biệt dành cho các khách hàng đặc biệt"
+    },
+    {
+      "_id": "5e8c2b5a0f4b9a0017d9d0a9",
+      "name": "Phòng đặc biệt",
+      "description": "Phòng đặc biệt dành cho các khách hàng đặc biệt"
+    },
+    {
+      "name": "OKe",
+      "description": "oke",
+      "_id": "joSLgrs"
+    },
+    {
+      "name": "123123",
+      "description": "123123",
+      "_id": "y0Nruza"
+    },
+    {
+      "name": "á",
+      "description": "ád",
+      "_id": "6nEh1-D"
+    },
+    {
+      "name": "123",
+      "description": "123",
+      "_id": "Z3HzE-O"
+    },
+    {
+      "name": "ádasd",
+      "description": "adasdad",
+      "_id": "dvGJtej"
+    },
+    {
+      "name": "213123",
+      "description": "123123",
+      "_id": "tu9ofVQ"
+    }
+  ],
+  "rooms": [
+    {
+      "_id": "1234",
+      "name": "vip1",
+      "roomTypeId": "5e8c2b5a0f4b9a0017d9d0a1",
+      "pricePerDay": "number",
+      "status": true,
+      "cleanRoom": false,
+      "cleanRoomAt": "19-07-2022",
+      "description": "phòng quá vip",
+      "maxAdult": 5,
+      "maxChild": 9
+    }
+  ],
+  "accounts": [],
+  "customers": [],
+  "employees": [],
+  "menu": [
+    {
+      "_id": "qwert",
+      "name": "string",
+      "type": "string",
+      "importPrice": "2",
+      "price": 4
+    }
+  ],
+  "orders": [
+    {
+      "_id": "2323sf",
+      "reservationDetailId": "p1",
+      "details": [
+        {
+          "_itemId": "nuocngot",
+          "quantity": 10,
+          "price": 22,
+          "orderedAt": "5-10-2022"
+        }
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "_id": "od1",
+      "employeeId": "NV02",
+      "reservationDetailId": "dt01",
+      "createdAt": "7-5-2022",
+      "orderPrice": 1200000,
+      "roomPrice": 230000
+    }
+  ],
+  "reservations": [
+    {
+      "_id": "5g",
+      "roomIds": [
+        "p01",
+        "p02"
+      ],
+      "customerId": "KH01",
+      "employeeId": "NV01",
+      "reservedAt": "10-5-2022"
+    }
+  ],
+  "reservationDetails": [
+    {
+      "_id": "dt01",
+      "reservevationId": "r01",
+      "roomId": "p01",
+      "checkInAt": "20-5-2023",
+      "checkOutAt": "26-5-2023",
+      "customerId": "KH01",
+      "deposits": 500000,
+      "totalAdults": 20,
+      "totalChildren": 30,
+      "roomPricePerDay": 90000
+    }
+  ]
+}
